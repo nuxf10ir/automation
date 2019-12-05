@@ -8,6 +8,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family:'Berlingske Sans';
+    src:	url('./fonts/BerlingskeSans-Blk.eot');
+    src:	url('./fonts/BerlingskeSans-Blk.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/BerlingskeSans-Blk.woff2') format('woff2'),
+    url('./fonts/BerlingskeSans-Blk.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
 
 .wrapper {
     max-width: 600px;
@@ -32,7 +45,7 @@
 }
 
 .card {
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -83,6 +96,16 @@
     color: black;
     font: normal 14px/20px "Berlingske Sans", Georgia, "Times New Roman", Times, serif;
 }
+
+.card_viewtype_answer .card-content_in ul {
+    padding-left: 1em;
+    margin: 0;
+}
+
+.card_viewtype_answer .card-content_in ul ul {
+    padding-left: 2em;
+}
+
 
 .card_viewtype_answer .card-button_out {
     background: none;
